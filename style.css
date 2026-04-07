@@ -158,7 +158,6 @@ body {
 #about {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     color: #fff;
     padding: 10vw 5vw;
     padding-left: 40vw;
@@ -169,9 +168,74 @@ body {
 
 #textabout {
     width: 25rem;
-    background-color: red;
+}
+
+#textabout h5 {
+    text-transform:
+        uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p {
+    line-height: 1.7;
+    margin-bottom: 30px;
 }
 
 #about img {
     width: 200px;
+}
+
+#textabout a {
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    background-color:
+        black;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer {
+color: #fff;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 30px;
+}
+
+#footerleft {
+display: flex;
+gap: 20px;
+}
+
+#footerright {
+display: flex;
+gap: 30px;
+}
+
+#footer a {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+text-decoration: none;
 }
